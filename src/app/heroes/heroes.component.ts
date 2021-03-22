@@ -10,8 +10,11 @@ export class HeroesComponent implements OnInit {
   /*crear clase*/
   hero: Hero={
     id:1,
-    name:'Spiderman',
-    edad: 23
+    name:'IRON MAN',
+    edad: 40,
+    superpoder:'EL DINERO',
+    universo:'MARVEL',
+    identidad:'TONY STARK'
   };
 
   constructor() { }
